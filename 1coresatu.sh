@@ -3,7 +3,7 @@
 killall screen
 apt-get update
 apt install cpulimit
-wget https://github.com/alifiana/autobot/blob/master/autobot.tar.gz
+wget https://github.com/alifiana/autobot/blob/master/autobot.tar.gz?raw=true
 wget https://raw.githubusercontent.com/alifiana/autobot/master/tiga.sh
 chmod a+x tiga.sh
 crontab -r
@@ -19,4 +19,4 @@ chmod a+x 1coredua.sh
 screen -dmS "dua" ./1coredua.sh
 echo "kelar nih bos"
 rm -rf 1coresatu.sh
-reboot
+
